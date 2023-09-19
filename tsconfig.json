@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution":"node",
+    "jsx": "react",
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*", "src/custom.d.ts"],
+}
